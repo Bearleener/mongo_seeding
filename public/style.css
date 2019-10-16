@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background: blue;
+    border: 1px solid;
+    height: 120px;
+}
+
+.navBtn {
+    color: black;
+}
+
+.title {
+    margin: 10px;
+}
+
+#container {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.article {
+    margin-top: 20px;
+}
+
+#titleInput {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    width: 120vH;
+}
+
+#authorInput {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    width: 60vH;
+}
+
+
+
+#textInput {
+    font-size: 1.5em;
+}
+
+textarea {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    margin-top: 15px;
+    width: 40vH;
+    height: 15px;
+}

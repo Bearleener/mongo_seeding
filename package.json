@@ -5,10 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "dotenv": "^8.1.0",
-    "mongoose": "^5.7.4"
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4",
+    "mysql": "^2.17.1"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node server.js",
     "seeds": "node seeds.js",
     "seeds:delete": "node seeds.js --delete"
   },
